@@ -1,11 +1,2 @@
-﻿  Building Custom Rule C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/authserver/CMakeLists.txt
-  authPCH.cpp
-  AuthCodes.cpp
-  RealmList.cpp
-  AuthSocket.cpp
-  RealmSocket.cpp
-  Main.cpp
-  WheatyExceptionReport.cpp
-C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging\WheatyExceptionReport.cpp(961,57): warning C4477: 'sprintf' : format string '%.31s' requires an argument of type 'char *', but variadic argument 1 has type 'DWORD'
-C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging\WheatyExceptionReport.cpp(961,57): warning C4313: 'sprintf': '%s' in format string conflicts with argument 1 of type 'DWORD'
-  aFinal.vcxproj -> C:\Users\consu\OneDrive\Escritorio\Void WoW\source\bin\Release\aFinal.exe
+﻿C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\authserver\authserver.rc(15): fatal error RC1015: cannot open include file 'revision.h'.
+  

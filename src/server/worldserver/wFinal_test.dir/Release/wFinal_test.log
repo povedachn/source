@@ -1,13 +1,2 @@
-﻿  Building Custom Rule C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/worldserver/CMakeLists.txt
-  worldPCH.cpp
-  CliRunnable.cpp
-  RARunnable.cpp
-  RASocket.cpp
-  TCSoap.cpp
-  WorldRunnable.cpp
-  Main.cpp
-  Master.cpp
-  WheatyExceptionReport.cpp
-C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging\WheatyExceptionReport.cpp(961,57): warning C4477: 'sprintf' : format string '%.31s' requires an argument of type 'char *', but variadic argument 1 has type 'DWORD'
-C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging\WheatyExceptionReport.cpp(961,57): warning C4313: 'sprintf': '%s' in format string conflicts with argument 1 of type 'DWORD'
-  wFinal_test.vcxproj -> C:\Users\consu\OneDrive\Escritorio\Void WoW\source\bin\Release\wFinal_test.exe
+﻿C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\worldserver\worldserver.rc(13): fatal error RC1015: cannot open include file 'revision.h'.
+  
