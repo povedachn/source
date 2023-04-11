@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\worldserver\PrecompiledHeaders\worldPCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\worldserver\CommandLine\CliRunnable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\worldserver\RemoteAccess\RARunnable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\worldserver\RemoteAccess\RASocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\worldserver\TCSoap\TCSoap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\worldserver\WorldThread\WorldRunnable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\worldserver\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\worldserver\Master.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging\WheatyExceptionReport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\worldserver\PrecompiledHeaders\worldPCH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\worldserver\CommandLine\CliRunnable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\worldserver\RemoteAccess\RARunnable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\worldserver\RemoteAccess\RASocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\worldserver\TCSoap\TCSoap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\worldserver\WorldThread\WorldRunnable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\worldserver\Master.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\worldserver\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging\WheatyExceptionReport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\worldserver\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\worldserver\worldserver.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F74D7FD9-742F-3E93-901E-014BE3A185A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F8DFD0EA-65D3-3F41-8942-971606D07F66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

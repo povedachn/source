@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Users/consu/OneDrive/Escritorio/Void WoW/source/dep/gsoap/CMakeLists.txt
+  soapC.cpp
+  soapServer.cpp
+  stdsoap2.cpp
+  gsoap.vcxproj -> C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\gsoap\Release\gsoap.lib

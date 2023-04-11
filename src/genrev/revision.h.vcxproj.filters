@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\CMakeFiles\43d58de4a00e9b8d603ef3c201bc1240\revision.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\genrev\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\genrev\CMakeFiles\revision.h">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2BEC65AA-BD41-3AA7-AB9B-B04D9FFCBE2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F74D7FD9-742F-3E93-901E-014BE3A185A4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

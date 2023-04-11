@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{984B652E-9E7D-3802-B657-40AD4F93CACA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>collision</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">collision.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">collision</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">collision.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">collision</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">collision.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">collision</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">collision.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">collision</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\include;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic\LinkedReference;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Logging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Packets;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Addons;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Conditions;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Item;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\GameObject;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Creature;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object\Updates;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Unit;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Combat;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Loot;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Miscellaneous;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids\Cells;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids\Notifiers;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Maps;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement\Waypoints;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement\Spline;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server\Protocol;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\World;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Warden;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Spells;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Spells\Auras;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Management;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Maps;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Models;C:\Users\consu\OneDrive\Escritorio\Void WoW\source;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/collision/PrecompiledHeaders/collisionPCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/collision/PrecompiledHeaders/collisionPCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;TRINITY_COREPCH;SCRIPTS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;TRINITY_COREPCH;SCRIPTS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\include;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic\LinkedReference;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Logging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Packets;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Addons;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Conditions;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Item;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\GameObject;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Creature;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object\Updates;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Unit;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Combat;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Loot;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Miscellaneous;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids\Cells;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids\Notifiers;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Maps;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement\Waypoints;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement\Spline;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server\Protocol;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\World;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Warden;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Spells;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Spells\Auras;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Management;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Maps;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Models;C:\Users\consu\OneDrive\Escritorio\Void WoW\source;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\include;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic\LinkedReference;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Logging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Packets;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Addons;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Conditions;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Item;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\GameObject;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Creature;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object\Updates;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Unit;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Combat;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Loot;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Miscellaneous;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids\Cells;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids\Notifiers;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Maps;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement\Waypoints;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement\Spline;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server\Protocol;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\World;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Warden;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Spells;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Spells\Auras;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Management;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Maps;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Models;C:\Users\consu\OneDrive\Escritorio\Void WoW\source;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\include;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic\LinkedReference;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Logging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Packets;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Addons;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Conditions;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Item;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\GameObject;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Creature;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object\Updates;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Unit;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Combat;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Loot;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Miscellaneous;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids\Cells;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids\Notifiers;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Maps;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement\Waypoints;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement\Spline;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server\Protocol;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\World;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Warden;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Spells;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Spells\Auras;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Management;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Maps;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Models;C:\Users\consu\OneDrive\Escritorio\Void WoW\source;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/collision/PrecompiledHeaders/collisionPCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/collision/PrecompiledHeaders/collisionPCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;TRINITY_COREPCH;SCRIPTS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;TRINITY_COREPCH;SCRIPTS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\include;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic\LinkedReference;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Logging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Packets;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Addons;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Conditions;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Item;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\GameObject;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Creature;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object\Updates;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Unit;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Combat;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Loot;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Miscellaneous;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids\Cells;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids\Notifiers;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Maps;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement\Waypoints;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement\Spline;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server\Protocol;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\World;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Warden;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Spells;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Spells\Auras;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Management;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Maps;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Models;C:\Users\consu\OneDrive\Escritorio\Void WoW\source;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\include;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic\LinkedReference;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Logging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Packets;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Addons;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Conditions;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Item;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\GameObject;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Creature;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object\Updates;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Unit;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Combat;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Loot;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Miscellaneous;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids\Cells;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids\Notifiers;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Maps;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement\Waypoints;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement\Spline;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server\Protocol;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\World;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Warden;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Spells;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Spells\Auras;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Management;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Maps;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Models;C:\Users\consu\OneDrive\Escritorio\Void WoW\source;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\include;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic\LinkedReference;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Logging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Packets;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Addons;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Conditions;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Item;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\GameObject;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Creature;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object\Updates;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Unit;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Combat;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Loot;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Miscellaneous;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids\Cells;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids\Notifiers;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Maps;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement\Waypoints;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement\Spline;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server\Protocol;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\World;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Warden;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Spells;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Spells\Auras;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Management;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Maps;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Models;C:\Users\consu\OneDrive\Escritorio\Void WoW\source;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/collision/PrecompiledHeaders/collisionPCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/collision/PrecompiledHeaders/collisionPCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;TRINITY_COREPCH;SCRIPTS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;TRINITY_COREPCH;SCRIPTS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\include;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic\LinkedReference;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Logging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Packets;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Addons;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Conditions;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Item;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\GameObject;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Creature;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object\Updates;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Unit;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Combat;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Loot;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Miscellaneous;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids\Cells;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids\Notifiers;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Maps;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement\Waypoints;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement\Spline;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server\Protocol;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\World;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Warden;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Spells;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Spells\Auras;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Management;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Maps;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Models;C:\Users\consu\OneDrive\Escritorio\Void WoW\source;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\include;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic\LinkedReference;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Logging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Packets;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Addons;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Conditions;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Item;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\GameObject;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Creature;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object\Updates;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Unit;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Combat;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Loot;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Miscellaneous;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids\Cells;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids\Notifiers;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Maps;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement\Waypoints;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement\Spline;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server\Protocol;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\World;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Warden;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Spells;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Spells\Auras;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Management;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Maps;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Models;C:\Users\consu\OneDrive\Escritorio\Void WoW\source;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\include;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic\LinkedReference;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Logging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Packets;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Addons;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Conditions;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Item;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\GameObject;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Creature;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object\Updates;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Unit;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Combat;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Loot;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Miscellaneous;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids\Cells;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids\Notifiers;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Maps;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement\Waypoints;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement\Spline;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server\Protocol;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\World;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Warden;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Spells;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Spells\Auras;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Management;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Maps;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Models;C:\Users\consu\OneDrive\Escritorio\Void WoW\source;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/collision/PrecompiledHeaders/collisionPCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/collision/PrecompiledHeaders/collisionPCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;TRINITY_COREPCH;SCRIPTS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;TRINITY_COREPCH;SCRIPTS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\include;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic\LinkedReference;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Logging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Packets;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Addons;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Conditions;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Item;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\GameObject;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Creature;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object\Updates;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Unit;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Combat;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Loot;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Miscellaneous;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids\Cells;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids\Notifiers;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Maps;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement\Waypoints;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement\Spline;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server\Protocol;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\World;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Warden;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Spells;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Spells\Auras;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Management;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Maps;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Models;C:\Users\consu\OneDrive\Escritorio\Void WoW\source;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\include;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic\LinkedReference;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Logging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Packets;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Addons;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Conditions;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Item;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\GameObject;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Creature;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object\Updates;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Unit;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Combat;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Loot;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Miscellaneous;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids\Cells;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Grids\Notifiers;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Maps;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement\Waypoints;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement\Spline;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Movement;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server\Protocol;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\World;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Warden;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Spells;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Spells\Auras;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Management;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Maps;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Models;C:\Users\consu\OneDrive\Escritorio\Void WoW\source;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/collision/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/consu/OneDrive/Escritorio/Void WoW/source" "-BC:/Users/consu/OneDrive/Escritorio/Void WoW/source" --check-stamp-file "C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/collision/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/collision/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/consu/OneDrive/Escritorio/Void WoW/source" "-BC:/Users/consu/OneDrive/Escritorio/Void WoW/source" --check-stamp-file "C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/collision/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/collision/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/consu/OneDrive/Escritorio/Void WoW/source" "-BC:/Users/consu/OneDrive/Escritorio/Void WoW/source" --check-stamp-file "C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/collision/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/collision/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/consu/OneDrive/Escritorio/Void WoW/source" "-BC:/Users/consu/OneDrive/Escritorio/Void WoW/source" --check-stamp-file "C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/collision/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\PrecompiledHeaders\collisionPCH.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/collision/PrecompiledHeaders/collisionPCH.h</PrecompiledHeaderFile>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/collision/PrecompiledHeaders/collisionPCH.h</PrecompiledHeaderFile>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/collision/PrecompiledHeaders/collisionPCH.h</PrecompiledHeaderFile>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/collision/PrecompiledHeaders/collisionPCH.h</PrecompiledHeaderFile>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\PrecompiledHeaders\collisionPCH.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Management\IVMapManager.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Management\VMapFactory.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Management\VMapFactory.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Management\VMapManager2.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Management\VMapManager2.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Maps\MapTree.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Maps\MapTree.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Maps\TileAssembler.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Maps\TileAssembler.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Models\GameObjectModel.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Models\GameObjectModel.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Models\ModelInstance.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Models\ModelInstance.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Models\WorldModel.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Models\WorldModel.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\BoundingIntervalHierarchy.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\BoundingIntervalHierarchy.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\BoundingIntervalHierarchyWrapper.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\DynamicTree.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\DynamicTree.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\RegularGrid.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\VMapDefinitions.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\VMapTools.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\ZERO_CHECK.vcxproj">
+      <Project>{1AEB34FB-F975-375F-87A1-E77753550C31}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

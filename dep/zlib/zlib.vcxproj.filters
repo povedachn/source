@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\zlib\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\zlib\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\zlib\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\zlib\deflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\zlib\infback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\zlib\inffast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\zlib\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\zlib\inftrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\zlib\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\zlib\uncompr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\zlib\zutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\zlib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F8DFD0EA-65D3-3F41-8942-971606D07F66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

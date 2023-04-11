@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4D37B9E8-1679-3661-8313-2FE21A428446}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>shared</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">shared.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">shared</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">shared.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">shared</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">shared.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">shared</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">shared.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">shared</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared;C:\Users\consu\OneDrive\Escritorio\Void WoW\source;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\mersennetwister;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\utf8cpp;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Configuration;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Logging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Packets;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/shared/PrecompiledHeaders/sharedPCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/shared/PrecompiledHeaders/sharedPCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;TRINITY_COREPCH;SCRIPTS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;TRINITY_COREPCH;SCRIPTS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared;C:\Users\consu\OneDrive\Escritorio\Void WoW\source;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\mersennetwister;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\utf8cpp;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Configuration;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Logging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Packets;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared;C:\Users\consu\OneDrive\Escritorio\Void WoW\source;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\mersennetwister;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\utf8cpp;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Configuration;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Logging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Packets;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared;C:\Users\consu\OneDrive\Escritorio\Void WoW\source;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\mersennetwister;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\utf8cpp;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Configuration;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Logging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Packets;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/shared/PrecompiledHeaders/sharedPCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/shared/PrecompiledHeaders/sharedPCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;TRINITY_COREPCH;SCRIPTS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;TRINITY_COREPCH;SCRIPTS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared;C:\Users\consu\OneDrive\Escritorio\Void WoW\source;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\mersennetwister;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\utf8cpp;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Configuration;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Logging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Packets;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared;C:\Users\consu\OneDrive\Escritorio\Void WoW\source;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\mersennetwister;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\utf8cpp;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Configuration;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Logging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Packets;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared;C:\Users\consu\OneDrive\Escritorio\Void WoW\source;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\mersennetwister;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\utf8cpp;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Configuration;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Logging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Packets;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/shared/PrecompiledHeaders/sharedPCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/shared/PrecompiledHeaders/sharedPCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;TRINITY_COREPCH;SCRIPTS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;TRINITY_COREPCH;SCRIPTS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared;C:\Users\consu\OneDrive\Escritorio\Void WoW\source;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\mersennetwister;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\utf8cpp;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Configuration;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Logging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Packets;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared;C:\Users\consu\OneDrive\Escritorio\Void WoW\source;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\mersennetwister;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\utf8cpp;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Configuration;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Logging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Packets;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared;C:\Users\consu\OneDrive\Escritorio\Void WoW\source;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\mersennetwister;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\utf8cpp;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Configuration;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Logging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Packets;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/shared/PrecompiledHeaders/sharedPCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/shared/PrecompiledHeaders/sharedPCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;TRINITY_COREPCH;SCRIPTS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;TRINITY_COREPCH;SCRIPTS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared;C:\Users\consu\OneDrive\Escritorio\Void WoW\source;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\mersennetwister;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\utf8cpp;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Configuration;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Logging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Packets;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared;C:\Users\consu\OneDrive\Escritorio\Void WoW\source;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\mersennetwister;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\utf8cpp;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Configuration;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Logging;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Packets;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Entities\Object;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/shared/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/consu/OneDrive/Escritorio/Void WoW/source" "-BC:/Users/consu/OneDrive/Escritorio/Void WoW/source" --check-stamp-file "C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/shared/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/shared/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/consu/OneDrive/Escritorio/Void WoW/source" "-BC:/Users/consu/OneDrive/Escritorio/Void WoW/source" --check-stamp-file "C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/shared/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/shared/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/consu/OneDrive/Escritorio/Void WoW/source" "-BC:/Users/consu/OneDrive/Escritorio/Void WoW/source" --check-stamp-file "C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/shared/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/shared/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/consu/OneDrive/Escritorio/Void WoW/source" "-BC:/Users/consu/OneDrive/Escritorio/Void WoW/source" --check-stamp-file "C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/shared/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\PrecompiledHeaders\sharedPCH.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/shared/PrecompiledHeaders/sharedPCH.h</PrecompiledHeaderFile>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/shared/PrecompiledHeaders/sharedPCH.h</PrecompiledHeaderFile>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/shared/PrecompiledHeaders/sharedPCH.h</PrecompiledHeaderFile>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/shared/PrecompiledHeaders/sharedPCH.h</PrecompiledHeaderFile>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\PrecompiledHeaders\sharedPCH.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Configuration\Config.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Configuration\Config.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography\ARC4.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography\ARC4.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography\Authentication\AuthCrypt.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography\Authentication\AuthCrypt.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography\Authentication\WardenKeyGeneration.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography\BigNumber.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography\BigNumber.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography\HMACSHA1.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography\HMACSHA1.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography\SHA1.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Cryptography\SHA1.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database\AdhocStatement.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database\AdhocStatement.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database\DatabaseEnv.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database\DatabaseWorker.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database\DatabaseWorker.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database\DatabaseWorkerPool.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database\Field.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database\Field.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database\Implementation\CharacterDatabase.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database\Implementation\CharacterDatabase.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database\Implementation\LoginDatabase.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database\Implementation\LoginDatabase.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database\Implementation\WorldDatabase.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database\Implementation\WorldDatabase.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database\MySQLConnection.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database\MySQLConnection.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database\MySQLThreading.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database\PreparedStatement.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database\PreparedStatement.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database\QueryHolder.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database\QueryHolder.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database\QueryResult.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database\QueryResult.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database\SQLOperation.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database\Transaction.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Database\Transaction.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores\DBCFileLoader.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores\DBCFileLoader.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\DataStores\DBCStore.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic\FactoryHolder.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic\LinkedList.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic\LinkedReference\RefManager.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic\LinkedReference\Reference.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic\ObjectRegistry.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic\TypeContainer.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic\TypeContainerFunctions.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic\TypeContainerFunctionsPtr.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic\TypeContainerVisitor.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic\TypeList.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Dynamic\UnorderedMap.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Logging\Log.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Logging\Log.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Packets\ByteBuffer.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Packets\WorldPacket.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading\Callback.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading\DelayExecutor.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading\DelayExecutor.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading\LockedQueue.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading\Threading.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Threading\Threading.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities\ByteConverter.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities\EventProcessor.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities\EventProcessor.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities\ServiceWin32.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities\ServiceWin32.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities\SignalHandler.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities\Timer.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities\Util.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Utilities\Util.h" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Common.cpp" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Common.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\CompilerDefs.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Define.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\SystemConfig.h" />
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Debugging\Errors.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\ZERO_CHECK.vcxproj">
+      <Project>{1AEB34FB-F975-375F-87A1-E77753550C31}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite\ace\ace.vcxproj">
+      <Project>{E5D8A200-6662-32C8-825B-007BDB7980C3}</Project>
+      <Name>ace</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

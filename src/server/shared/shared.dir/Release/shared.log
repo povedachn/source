@@ -1,0 +1,28 @@
+﻿  Building Custom Rule C:/Users/consu/OneDrive/Escritorio/Void WoW/source/src/server/shared/CMakeLists.txt
+  sharedPCH.cpp
+  Config.cpp
+  ARC4.cpp
+  AuthCrypt.cpp
+  BigNumber.cpp
+  HMACSHA1.cpp
+  SHA1.cpp
+  AdhocStatement.cpp
+  DatabaseWorker.cpp
+  Field.cpp
+  CharacterDatabase.cpp
+  LoginDatabase.cpp
+  WorldDatabase.cpp
+  MySQLConnection.cpp
+  PreparedStatement.cpp
+  QueryHolder.cpp
+  QueryResult.cpp
+  Transaction.cpp
+  DBCFileLoader.cpp
+  Log.cpp
+  DelayExecutor.cpp
+  Threading.cpp
+  EventProcessor.cpp
+  ServiceWin32.cpp
+  Util.cpp
+  Common.cpp
+  shared.vcxproj -> C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\shared\Release\shared.lib

@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0D19C58D-813A-336C-B7D3-B690B8FB1957}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>g3dlib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">g3dlib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">g3dlib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">g3dlib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">g3dlib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">g3dlib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">g3dlib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">g3dlib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">g3dlib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\include;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;TRINITY_COREPCH;SCRIPTS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;TRINITY_COREPCH;SCRIPTS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\include;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\include;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\include;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;TRINITY_COREPCH;SCRIPTS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;TRINITY_COREPCH;SCRIPTS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\include;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\include;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\include;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;TRINITY_COREPCH;SCRIPTS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;TRINITY_COREPCH;SCRIPTS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\include;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\include;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\include;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;TRINITY_COREPCH;SCRIPTS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;TRINITY_COREPCH;SCRIPTS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\include;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\include;C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/consu/OneDrive/Escritorio/Void WoW/source/dep/g3dlite/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/consu/OneDrive/Escritorio/Void WoW/source" "-BC:/Users/consu/OneDrive/Escritorio/Void WoW/source" --check-stamp-file "C:/Users/consu/OneDrive/Escritorio/Void WoW/source/dep/g3dlite/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/consu/OneDrive/Escritorio/Void WoW/source/dep/g3dlite/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/consu/OneDrive/Escritorio/Void WoW/source" "-BC:/Users/consu/OneDrive/Escritorio/Void WoW/source" --check-stamp-file "C:/Users/consu/OneDrive/Escritorio/Void WoW/source/dep/g3dlite/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/consu/OneDrive/Escritorio/Void WoW/source/dep/g3dlite/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/consu/OneDrive/Escritorio/Void WoW/source" "-BC:/Users/consu/OneDrive/Escritorio/Void WoW/source" --check-stamp-file "C:/Users/consu/OneDrive/Escritorio/Void WoW/source/dep/g3dlite/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/consu/OneDrive/Escritorio/Void WoW/source/dep/g3dlite/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/consu/OneDrive/Escritorio/Void WoW/source" "-BC:/Users/consu/OneDrive/Escritorio/Void WoW/source" --check-stamp-file "C:/Users/consu/OneDrive/Escritorio/Void WoW/source/dep/g3dlite/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\AABox.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\Any.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\BinaryFormat.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\BinaryInput.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\BinaryOutput.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\Box.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\Capsule.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\CollisionDetection.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\CoordinateFrame.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\Crypto.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\Cylinder.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\debugAssert.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\FileSystem.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\fileutils.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\format.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\g3dfnmatch.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\g3dmath.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\Line.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\LineSegment.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\Log.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\Matrix3.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\Matrix4.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\MemoryManager.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\PhysicsFrame.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\Plane.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\prompt.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\Quat.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\Random.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\Ray.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\ReferenceCount.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\RegistryUtil.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\Sphere.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\stringutils.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\System.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\TextInput.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\TextOutput.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\Triangle.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\uint128.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\UprightFrame.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\Vector2.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\Vector3.cpp" />
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\g3dlite\source\Vector4.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\ZERO_CHECK.vcxproj">
+      <Project>{1AEB34FB-F975-375F-87A1-E77753550C31}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\zlib\zlib.vcxproj">
+      <Project>{93F6CFEE-1E44-3536-AC4C-F8EA1E2724A3}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -27,6 +27,10 @@
 // @todo should we include anything from signal.h?
 #include "ace/os_include/sys/os_types.h"
 
+#define _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS 1
+
+#include <unordered_map>
+
 // To get the proper select() signature, this is required for HP-UX, and
 // maybe other platforms that offer both int and fdset forms of select().
 // For HP-UX, sys/time.h must be included before time.h, or
@@ -55,13 +59,6 @@ using std::difftime;
 
 # if !defined (ACE_HAS_POSIX_TIME)
 // Definition per POSIX.
-typedef struct timespec
-{
-  /// Seconds
-  time_t tv_sec;
-  /// Nanoseconds
-  long tv_nsec;
-} timespec_t;
 # elif defined (ACE_HAS_BROKEN_POSIX_TIME)
 #  if defined (ACE_OPENVMS)
 #     include /**/ <timers.h>
@@ -101,7 +98,8 @@ extern "C"
 #if defined (ACE_LACKS_CONST_TIMESPEC_PTR)
 typedef struct timespec * ACE_TIMESPEC_PTR;
 #else
-typedef const struct timespec * ACE_TIMESPEC_PTR;
+
+   typedef const timespec* ACE_TIMESPEC_PTR;  // puntero constante a timespec
 #endif /* ACE_LACKS_CONST_TIMESPEC_PTR */
 
 #ifdef __cplusplus

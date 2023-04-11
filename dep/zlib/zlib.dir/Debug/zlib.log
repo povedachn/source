@@ -1,0 +1,14 @@
+﻿  Building Custom Rule C:/Users/consu/OneDrive/Escritorio/Void WoW/source/dep/zlib/CMakeLists.txt
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  infback.c
+  inffast.c
+  inflate.c
+  inftrees.c
+  trees.c
+  uncompr.c
+  zutil.c
+  Generating Code...
+  zlib.vcxproj -> C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\zlib\Debug\zlib.lib

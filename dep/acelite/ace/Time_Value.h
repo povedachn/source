@@ -72,6 +72,15 @@ public:
    * dynamic subpriority strategies in the ACE_Dynamic_Message_Queue
    * class.
    */
+
+  typedef struct timespec
+  {
+      /// Seconds
+      time_t tv_sec;
+      /// Nanoseconds
+      long tv_nsec;
+  } timespec_t;
+
   static const ACE_Time_Value max_time;
 
   // = Initialization methods.
@@ -88,7 +97,7 @@ public:
   explicit ACE_Time_Value (const struct timeval &t);
 
   /// Construct the ACE_Time_Value object from a timespec_t.
-  explicit ACE_Time_Value (const timespec_t &t);
+  explicit ACE_Time_Value(const timespec_t &t);
 
 # if defined (ACE_WIN32)
   /// Construct the ACE_Time_Value object from a Win32 FILETIME

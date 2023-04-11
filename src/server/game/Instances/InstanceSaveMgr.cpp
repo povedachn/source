@@ -132,7 +132,7 @@ void InstanceSaveManager::RemoveInstanceSave(uint32 InstanceId)
     {
         // save the resettime for normal instances only when they get unloaded
         if(time_t resettime = itr->second->GetResetTimeForDB())
-            CharacterDatabase.PExecute("UPDATE instance SET resettime = '"UI64FMTD"' WHERE id = '%u'", (uint64)resettime, InstanceId);
+            CharacterDatabase.PExecute("UPDATE instance SET resettime = '" UI64FMTD"' WHERE id = '%u'", (uint64)resettime, InstanceId);
 
         delete itr->second;
         m_instanceSaveById.erase(itr);
@@ -311,7 +311,7 @@ void InstanceSaveManager::LoadResetTimes()
                 InstResetTimeMapDiffType::iterator itr = instResetTime.find(instance);
                 if(itr != instResetTime.end() && itr->second.second != resettime)
                 {
-                    CharacterDatabase.DirectPExecute("UPDATE instance SET resettime = '"UI64FMTD"' WHERE id = '%u'", uint64(resettime), instance);
+                    CharacterDatabase.DirectPExecute("UPDATE instance SET resettime = '" UI64FMTD"' WHERE id = '%u'", uint64(resettime), instance);
                     itr->second.second = resettime;
                 }
             }
@@ -385,7 +385,7 @@ void InstanceSaveManager::LoadResetTimes()
             // calculate the next reset time
             t = (t / DAY) * DAY;
             t += ((today - t) / period + 1) * period + diff;
-            CharacterDatabase.DirectPExecute("UPDATE instance_reset SET resettime = '"UI64FMTD"' WHERE mapid = '%u' AND difficulty= '%u'", (uint64)t, mapid, difficulty);
+            CharacterDatabase.DirectPExecute("UPDATE instance_reset SET resettime = '" UI64FMTD"' WHERE mapid = '%u' AND difficulty= '%u'", (uint64)t, mapid, difficulty);
         }
 
         SetResetTimeFor(mapid, difficulty, t);

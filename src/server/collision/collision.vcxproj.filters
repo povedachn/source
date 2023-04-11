@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\PrecompiledHeaders\collisionPCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Management\VMapFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Management\VMapManager2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Maps\MapTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Maps\TileAssembler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Models\GameObjectModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Models\ModelInstance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Models\WorldModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\BoundingIntervalHierarchy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\DynamicTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\PrecompiledHeaders\collisionPCH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Management\IVMapManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Management\VMapFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Management\VMapManager2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Maps\MapTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Maps\TileAssembler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Models\GameObjectModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Models\ModelInstance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Models\WorldModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\BoundingIntervalHierarchy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\BoundingIntervalHierarchyWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\DynamicTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\RegularGrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\VMapDefinitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\VMapTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F74D7FD9-742F-3E93-901E-014BE3A185A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F8DFD0EA-65D3-3F41-8942-971606D07F66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

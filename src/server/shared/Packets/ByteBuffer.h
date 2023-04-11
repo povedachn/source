@@ -11,7 +11,6 @@
 
 #ifndef _BYTEBUFFER_H
 #define _BYTEBUFFER_H
-
 #include "Common.h"
 #include "Debugging/Errors.h"
 #include "Logging/Log.h"
@@ -28,7 +27,7 @@ public:
 
     void PrintPosError() const
     {
-        sLog->outError("Attempted to %s in ByteBuffer (pos: " SIZEFMTD " size: "SIZEFMTD") value with size: " SIZEFMTD,
+        sLog->outError("Attempted to %s in ByteBuffer (pos: " SIZEFMTD " size: " SIZEFMTD") value with size: " SIZEFMTD,
             (add ? "put" : "get"), pos, size, esize);
     }
 private:

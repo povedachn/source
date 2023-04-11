@@ -1,0 +1,261 @@
+﻿  gamePCH.cpp
+  CombatAI.cpp
+  GameObjectAI.cpp
+  GuardAI.cpp
+  PassiveAI.cpp
+  PetAI.cpp
+  ReactorAI.cpp
+  TotemAI.cpp
+  UnitAI.cpp
+  CreatureAI.cpp
+  CreatureAIRegistry.cpp
+  CreatureAISelector.cpp
+  CreatureEventAI.cpp
+  CreatureEventAIMgr.cpp
+  ScriptedCreature.cpp
+  ScriptedEscortAI.cpp
+  ScriptedFollowerAI.cpp
+  ScriptedSimpleAI.cpp
+  SmartAI.cpp
+  SmartScript.cpp
+  SmartScriptMgr.cpp
+  AccountMgr.cpp
+  AchievementMgr.cpp
+  AddonMgr.cpp
+  AuctionHouseMgr.cpp
+  ArenaTeam.cpp
+  ArenaTeamMgr.cpp
+  Battleground.cpp
+  BattlegroundMgr.cpp
+  BattlegroundQueue.cpp
+  ChallengeMgr.cpp
+  SpectatorAddon.cpp
+  BattlegroundAA.cpp
+  BattlegroundAB.cpp
+  BattlegroundAV.cpp
+  BattlegroundBE.cpp
+  BattlegroundDS.cpp
+  BattlegroundEY.cpp
+  BattlegroundIC.cpp
+  BattlegroundNA.cpp
+  BattlegroundRB.cpp
+  BattlegroundRL.cpp
+  BattlegroundRV.cpp
+  BattlegroundSA.cpp
+  BattlegroundWS.cpp
+  CalendarMgr.cpp
+  Channel.cpp
+  ChannelMgr.cpp
+  Chat.cpp
+  ChatLink.cpp
+  Level0.cpp
+  Level1.cpp
+  Level2.cpp
+  Level3.cpp
+  TicketCommands.cpp
+  HostileRefManager.cpp
+  ThreatManager.cpp
+  ConditionMgr.cpp
+  DisableMgr.cpp
+  DBCStores.cpp
+  LFGGroupData.cpp
+  LFGMgr.cpp
+  LFGPlayerData.cpp
+  LFGScripts.cpp
+  Corpse.cpp
+  Creature.cpp
+  CreatureGroups.cpp
+  GossipDef.cpp
+  TemporarySummon.cpp
+  DynamicObject.cpp
+  GameObject.cpp
+  Bag.cpp
+  Item.cpp
+  ItemEnchantmentMgr.cpp
+  Object.cpp
+  ObjectPosSelector.cpp
+  UpdateData.cpp
+  Pet.cpp
+  Player.cpp
+  SocialMgr.cpp
+  Totem.cpp
+  Transport.cpp
+  StatSystem.cpp
+  Unit.cpp
+  Vehicle.cpp
+  GameEventMgr.cpp
+  ObjectAccessor.cpp
+  ObjectMgr.cpp
+  GridStates.cpp
+  GridNotifiers.cpp
+  ObjectGridLoader.cpp
+  Group.cpp
+  GroupMgr.cpp
+  GroupReference.cpp
+  Guild.cpp
+  GuildMgr.cpp
+  InstanceSaveMgr.cpp
+  InstanceScript.cpp
+  LootMgr.cpp
+  Mail.cpp
+  Map.cpp
+  MapInstanced.cpp
+  MapManager.cpp
+  MapUpdater.cpp
+  FollowerReference.cpp
+  MotionMaster.cpp
+  MovementGenerator.cpp
+  ChargeMovementGenerator.cpp
+  ConfusedMovementGenerator.cpp
+  FleeingMovementGenerator.cpp
+  HomeMovementGenerator.cpp
+  IdleMovementGenerator.cpp
+  PointMovementGenerator.cpp
+  RandomMovementGenerator.cpp
+  WaypointMovementGenerator.cpp
+  TargetedMovementGenerator.cpp
+  MoveMap.cpp
+  PathFinder.cpp
+  MoveSpline.cpp
+  MoveSplineInit.cpp
+  MovementPacketBuilder.cpp
+  MovementUtil.cpp
+  Spline.cpp
+  WaypointManager.cpp
+  OutdoorPvP.cpp
+  OutdoorPvPMgr.cpp
+  MovementChecker.cpp
+  PoolMgr.cpp
+  QuestDef.cpp
+  ReputationMgr.cpp
+  MapScripts.cpp
+  ScriptLoader.cpp
+  ScriptMgr.cpp
+  ScriptSystem.cpp
+  AddonHandler.cpp
+  ArenaTeamHandler.cpp
+  AuctionHouseHandler.cpp
+  AuthHandler.cpp
+  BattleGroundHandler.cpp
+  CalendarHandler.cpp
+  ChannelHandler.cpp
+  CharacterHandler.cpp
+  ChatHandler.cpp
+  CombatHandler.cpp
+  DuelHandler.cpp
+  GroupHandler.cpp
+  GuildHandler.cpp
+  ItemHandler.cpp
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server\Protocol\Handlers\ItemHandler.cpp(740,46): warning C4129: 'I': unrecognized character escape sequence
+  LFGHandler.cpp
+  LootHandler.cpp
+  MailHandler.cpp
+  MiscHandler.cpp
+  MovementHandler.cpp
+  NPCHandler.cpp
+  PetHandler.cpp
+  PetitionsHandler.cpp
+  QueryHandler.cpp
+  QuestHandler.cpp
+  SkillHandler.cpp
+  SpellHandler.cpp
+  TaxiHandler.cpp
+  TicketHandler.cpp
+  TradeHandler.cpp
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server\Protocol\Handlers\NPCHandler.cpp(57,46): warning C4129: 'I': unrecognized character escape sequence
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server\Protocol\Handlers\PetitionsHandler.cpp(97,46): warning C4129: 'I': unrecognized character escape sequence
+  VehicleHandler.cpp
+  VoiceChatHandler.cpp
+  Opcodes.cpp
+  WorldLog.cpp
+  WorldSession.cpp
+  WorldSocket.cpp
+  WorldSocketMgr.cpp
+  SkillDiscovery.cpp
+  SkillExtraItems.cpp
+  SpellAuraEffects.cpp
+  SpellAuras.cpp
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server\WorldSocket.cpp(158,43): warning C4311: 'type cast': pointer truncation from 'ACE_HANDLE' to 'uint32'
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server\WorldSocket.cpp(158,43): warning C4302: 'type cast': truncation from 'ACE_HANDLE' to 'uint32'
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server\WorldSocket.cpp(685,43): warning C4311: 'type cast': pointer truncation from 'ACE_HANDLE' to 'uint32'
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Server\WorldSocket.cpp(685,43): warning C4302: 'type cast': truncation from 'ACE_HANDLE' to 'uint32'
+  Spell.cpp
+  SpellEffects.cpp
+  SpellMgr.cpp
+  SpellScript.cpp
+  CreatureTextMgr.cpp
+  TicketMgr.cpp
+  PlayerDump.cpp
+  WardenBase.cpp
+  WardenDataStorage.cpp
+  WardenMac.cpp
+  WardenWin.cpp
+  Weather.cpp
+  WeatherMgr.cpp
+  World.cpp
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite\ace/Functor_T.inl(22,1): warning C4302: 'reinterpret_cast': truncation from 'TYPE' to 'unsigned long'
+          with
+          [
+              TYPE=ACE_Future_Rep<PreparedQueryResult> *
+          ] (compiling source file C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\World\World.cpp)
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite\ace/Functor_T.inl(15,1): message : while compiling class template member function 'unsigned long ACE_Pointer_Hash<ACE_Future_Rep<T> *>::operator ()(TYPE) const'
+          with
+          [
+              T=PreparedQueryResult,
+              TYPE=ACE_Future_Rep<PreparedQueryResult> *
+          ] (compiling source file C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\World\World.cpp)
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite\ace/Hash_Map_Manager_T.inl(81,3): message : see reference to function template instantiation 'unsigned long ACE_Pointer_Hash<ACE_Future_Rep<T> *>::operator ()(TYPE) const' being compiled
+          with
+          [
+              T=PreparedQueryResult,
+              TYPE=ACE_Future_Rep<PreparedQueryResult> *
+          ] (compiling source file C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\World\World.cpp)
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite\ace/Hash_Map_Manager_T.inl(80,1): message : while compiling class template member function 'u_long ACE_Hash_Map_Manager_Ex<ACE_Future_Rep<T> *,ACE_Future_Holder<T> *,ACE_Pointer_Hash<ACE_Future_Rep<T> *>,ACE_Equal_To<ACE_Future_Rep<T> *>,ACE_Null_Mutex>::hash(const EXT_ID &)'
+          with
+          [
+              T=PreparedQueryResult,
+              EXT_ID=ACE_Future_Rep<PreparedQueryResult> *
+          ] (compiling source file C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\World\World.cpp)
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite\ace/Hash_Map_Manager_T.cpp(319,7): message : see reference to function template instantiation 'u_long ACE_Hash_Map_Manager_Ex<ACE_Future_Rep<T> *,ACE_Future_Holder<T> *,ACE_Pointer_Hash<ACE_Future_Rep<T> *>,ACE_Equal_To<ACE_Future_Rep<T> *>,ACE_Null_Mutex>::hash(const EXT_ID &)' being compiled
+          with
+          [
+              T=PreparedQueryResult,
+              EXT_ID=ACE_Future_Rep<PreparedQueryResult> *
+          ] (compiling source file C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\World\World.cpp)
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite\ace/Hash_Map_Manager_T.cpp(226,1): message : while compiling class template member function 'int ACE_Hash_Map_Manager_Ex<ACE_Future_Rep<T> *,ACE_Future_Holder<T> *,ACE_Pointer_Hash<ACE_Future_Rep<T> *>,ACE_Equal_To<ACE_Future_Rep<T> *>,ACE_Null_Mutex>::bind_i(const EXT_ID &,const INT_ID &,ACE_Hash_Map_Entry<EXT_ID,INT_ID> *&)'
+          with
+          [
+              T=PreparedQueryResult,
+              EXT_ID=ACE_Future_Rep<PreparedQueryResult> *,
+              INT_ID=ACE_Future_Holder<PreparedQueryResult> *
+          ] (compiling source file C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\World\World.cpp)
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite\ace/Hash_Map_Manager_T.inl(97,3): message : see reference to function template instantiation 'int ACE_Hash_Map_Manager_Ex<ACE_Future_Rep<T> *,ACE_Future_Holder<T> *,ACE_Pointer_Hash<ACE_Future_Rep<T> *>,ACE_Equal_To<ACE_Future_Rep<T> *>,ACE_Null_Mutex>::bind_i(const EXT_ID &,const INT_ID &,ACE_Hash_Map_Entry<EXT_ID,INT_ID> *&)' being compiled
+          with
+          [
+              T=PreparedQueryResult,
+              EXT_ID=ACE_Future_Rep<PreparedQueryResult> *,
+              INT_ID=ACE_Future_Holder<PreparedQueryResult> *
+          ] (compiling source file C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\World\World.cpp)
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite\ace/Hash_Map_Manager_T.cpp(131,1): message : while compiling class template member function 'int ACE_Hash_Map_Manager_Ex<ACE_Future_Rep<T> *,ACE_Future_Holder<T> *,ACE_Pointer_Hash<ACE_Future_Rep<T> *>,ACE_Equal_To<ACE_Future_Rep<T> *>,ACE_Null_Mutex>::open(size_t,ACE_Allocator *,ACE_Allocator *)'
+          with
+          [
+              T=PreparedQueryResult
+          ] (compiling source file C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\World\World.cpp)
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite\ace/Hash_Map_Manager_T.inl(32,3): message : see reference to function template instantiation 'int ACE_Hash_Map_Manager_Ex<ACE_Future_Rep<T> *,ACE_Future_Holder<T> *,ACE_Pointer_Hash<ACE_Future_Rep<T> *>,ACE_Equal_To<ACE_Future_Rep<T> *>,ACE_Null_Mutex>::open(size_t,ACE_Allocator *,ACE_Allocator *)' being compiled
+          with
+          [
+              T=PreparedQueryResult
+          ] (compiling source file C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\World\World.cpp)
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite\ace/Hash_Map_Manager_T.inl(26,3): message : while compiling class template member function 'ACE_Hash_Map_Manager_Ex<ACE_Future_Rep<T> *,ACE_Future_Holder<T> *,ACE_Pointer_Hash<ACE_Future_Rep<T> *>,ACE_Equal_To<ACE_Future_Rep<T> *>,ACE_Null_Mutex>::ACE_Hash_Map_Manager_Ex(ACE_Allocator *,ACE_Allocator *)'
+          with
+          [
+              T=PreparedQueryResult
+          ] (compiling source file C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\World\World.cpp)
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite\ace/Future_Set.cpp(19,1): message : see reference to function template instantiation 'ACE_Hash_Map_Manager_Ex<ACE_Future_Rep<T> *,ACE_Future_Holder<T> *,ACE_Pointer_Hash<ACE_Future_Rep<T> *>,ACE_Equal_To<ACE_Future_Rep<T> *>,ACE_Null_Mutex>::ACE_Hash_Map_Manager_Ex(ACE_Allocator *,ACE_Allocator *)' being compiled
+          with
+          [
+              T=PreparedQueryResult
+          ] (compiling source file C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\World\World.cpp)
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\dep\acelite\ace/Future_Set.cpp(18,3): message : while compiling class template member function 'ACE_Future_Set<PreparedQueryResult>::ACE_Future_Set(ACE_Message_Queue<ACE_MT_SYNCH> *)' (compiling source file C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\World\World.cpp)
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\World\World.cpp(84,1): message : see reference to function template instantiation 'ACE_Future_Set<PreparedQueryResult>::ACE_Future_Set(ACE_Message_Queue<ACE_MT_SYNCH> *)' being compiled
+  game.vcxproj -> C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\game\Debug\game.lib

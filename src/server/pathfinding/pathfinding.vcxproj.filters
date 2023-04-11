@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\PrecompiledHeaders\pathfindingPCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\detour\DetourAlloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\detour\DetourCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\detour\DetourNavMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\detour\DetourNavMeshBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\detour\DetourNavMeshQuery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\detour\DetourNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\detour\DetourObstacleAvoidance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\recast\Recast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\recast\RecastAlloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\recast\RecastArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\recast\RecastContour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\recast\RecastFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\recast\RecastMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\recast\RecastMeshDetail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\recast\RecastRasterization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\recast\RecastRegion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\PrecompiledHeaders\pathfindingPCH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\detour\DetourAlloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\detour\DetourAssert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\detour\DetourCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\detour\DetourNavMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\detour\DetourNavMeshBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\detour\DetourNavMeshQuery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\detour\DetourNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\detour\DetourObstacleAvoidance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\recast\Recast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\recast\RecastAlloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\recast\RecastAssert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\pathfinding\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F74D7FD9-742F-3E93-901E-014BE3A185A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F8DFD0EA-65D3-3F41-8942-971606D07F66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

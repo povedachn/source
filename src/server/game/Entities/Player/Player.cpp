@@ -1595,14 +1595,14 @@ void Player::Update(uint32 p_time)
 	|| GetZoneId() == 2037 || GetZoneId() == 214/*Escalada2*/
 	) && GetMapId() == 0 && !isGameMaster() && Expulsar_Jugadores_Eventos() == 1)
 	{
-		TeleportTo(1, -2315.19951, -413.394012, -6.3581, 1.916640);
+		TeleportTo(1, -2315.19951f, -413.394012f, -6.3581f, 1.916640f);
 		ChatHandler(this).PSendSysMessage("|CFFFF0000Has sido teletransportado a la Shop por que el evento ya ha finalizado.|R");
 	}
 	
 	//Evento laberinto, expulsar jugadores del evento haciendo .event start 94
 	if ((GetZoneId() == 440 || GetZoneId() == 0/*Laberinto*/) && GetMapId() == 1 && !isGameMaster() && Expulsar_Jugadores_Eventos() == 1)
 	{
-		TeleportTo(1, -2315.19951, -413.394012, -6.3581, 1.916640);
+		TeleportTo(1, -2315.19951f, -413.394012f, -6.3581f, 1.916640f);
 		ChatHandler(this).PSendSysMessage("|CFFFF0000Has sido teletransportado a la Shop por que el evento ya ha finalizado.|R");
 	}
 
@@ -1776,7 +1776,7 @@ void Player::Update(uint32 p_time)
 	else if (GetAreaId() == 3431 && GetZoneId() == 3430 && GetMapId() == 530)
 	{
 		ChatHandler(this).PSendSysMessage("Lo siento, no puedes estar aqu""\xC3\xAD"" sin el Visor VIP. Has sido teletransportado a la Shop.");
-		TeleportTo(1, -2315.19951, -413.394012, -6.3581, 1.916640);
+		TeleportTo(1, -2315.19951f, -413.394012f, -6.3581f, 1.916640f);
 	}
 
 	// Shop neutral
@@ -1785,7 +1785,7 @@ void Player::Update(uint32 p_time)
 		if(!isGameMaster())
 		{
 			ChatHandler(this).PSendSysMessage("Lo siento, no puedes estar aqu""\xC3\xAD"". Has sido teletransportado a la Shop.");
-			TeleportTo(1, -2315.19951, -413.394012, -6.3581, 1.916640);
+			TeleportTo(1, -2315.19951f, -413.394012f, -6.3581f, 1.916640f);
 		}
 	}
 
@@ -5471,7 +5471,7 @@ void Player::DeleteArenaSeasons() //Custom Khanx
 			QueryResult reinicio = CharacterDatabase.PQuery("UPDATE `arena_season` SET `season`= (`season`+1), `start`='" UI64FMTD "'", uint64(time(NULL)));
 		}
 	else
-			QueryResult reinicio = CharacterDatabase.PQuery("REPLACE INTO arena_season(season, start) VALUES (1, '"UI64FMTD"')",uint64(time(NULL)));
+			QueryResult reinicio = CharacterDatabase.PQuery("REPLACE INTO arena_season(season, start) VALUES (1, '" UI64FMTD"')",uint64(time(NULL)));
 
 }
 
@@ -20278,7 +20278,7 @@ void Player::PossessSpellInitialize()
 
     if(!charmInfo)
     {
-        sLog->outError("Player::PossessSpellInitialize(): charm ("UI64FMTD") has no charminfo!", charm->GetGUID());
+        sLog->outError("Player::PossessSpellInitialize(): charm (" UI64FMTD") has no charminfo!", charm->GetGUID());
         return;
     }
 
@@ -20384,7 +20384,7 @@ void Player::CharmSpellInitialize()
     CharmInfo *charmInfo = charm->GetCharmInfo();
     if(!charmInfo)
     {
-        sLog->outError("Player::CharmSpellInitialize(): the player's charm ("UI64FMTD") has no charminfo!", charm->GetGUID());
+        sLog->outError("Player::CharmSpellInitialize(): the player's charm (" UI64FMTD") has no charminfo!", charm->GetGUID());
         return;
     }
 
@@ -25007,7 +25007,7 @@ void Player::SetEquipmentSet(uint32 index, EquipmentSet eqset)
 
         if(!found)                                          // something wrong...
         {
-            sLog->outError("Player %s tried to save equipment set "UI64FMTD" (index %u), but that equipment set not found!", GetName(), eqset.Guid, index);
+            sLog->outError("Player %s tried to save equipment set " UI64FMTD" (index %u), but that equipment set not found!", GetName(), eqset.Guid, index);
             return;
         }
     }

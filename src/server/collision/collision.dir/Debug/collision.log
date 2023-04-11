@@ -1,0 +1,43 @@
+﻿  collisionPCH.cpp
+  VMapFactory.cpp
+  VMapManager2.cpp
+  MapTree.cpp
+  TileAssembler.cpp
+  GameObjectModel.cpp
+  ModelInstance.cpp
+  WorldModel.cpp
+  BoundingIntervalHierarchy.cpp
+  DynamicTree.cpp
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\RegularGrid.h(87,44): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion (compiling source file C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\DynamicTree.cpp)
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\RegularGrid.h(86,1): message : while compiling class template member function 'RegularGrid2D<GameObjectModel,BIHWrap<GameObjectModel,BoundsTrait<GameObjectModel>>,NodeCreator<Node>,PositionTrait<GameObjectModel>>::Cell RegularGrid2D<GameObjectModel,Node,NodeCreator<Node>,PositionTrait<GameObjectModel>>::Cell::ComputeCell(float,float)'
+          with
+          [
+              Node=BIHWrap<GameObjectModel,BoundsTrait<GameObjectModel>>
+          ] (compiling source file C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\DynamicTree.cpp)
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\RegularGrid.h(96,16): message : see reference to function template instantiation 'RegularGrid2D<GameObjectModel,BIHWrap<GameObjectModel,BoundsTrait<GameObjectModel>>,NodeCreator<Node>,PositionTrait<GameObjectModel>>::Cell RegularGrid2D<GameObjectModel,Node,NodeCreator<Node>,PositionTrait<GameObjectModel>>::Cell::ComputeCell(float,float)' being compiled
+          with
+          [
+              Node=BIHWrap<GameObjectModel,BoundsTrait<GameObjectModel>>
+          ] (compiling source file C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\DynamicTree.cpp)
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\RegularGrid.h(96,1): message : see reference to class template instantiation 'RegularGrid2D<GameObjectModel,BIHWrap<GameObjectModel,BoundsTrait<GameObjectModel>>,NodeCreator<Node>,PositionTrait<GameObjectModel>>::Cell' being compiled
+          with
+          [
+              Node=BIHWrap<GameObjectModel,BoundsTrait<GameObjectModel>>
+          ] (compiling source file C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\DynamicTree.cpp)
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\RegularGrid.h(95,1): message : while compiling class template member function 'Node &RegularGrid2D<GameObjectModel,Node,NodeCreator<Node>,PositionTrait<GameObjectModel>>::getGridFor(float,float)'
+          with
+          [
+              Node=BIHWrap<GameObjectModel,BoundsTrait<GameObjectModel>>
+          ] (compiling source file C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\DynamicTree.cpp)
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\RegularGrid.h(57,15): message : see reference to function template instantiation 'Node &RegularGrid2D<GameObjectModel,Node,NodeCreator<Node>,PositionTrait<GameObjectModel>>::getGridFor(float,float)' being compiled
+          with
+          [
+              Node=BIHWrap<GameObjectModel,BoundsTrait<GameObjectModel>>
+          ] (compiling source file C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\DynamicTree.cpp)
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\DynamicTree.cpp(60,1): message : see reference to class template instantiation 'RegularGrid2D<GameObjectModel,BIHWrap<GameObjectModel,BoundsTrait<GameObjectModel>>,NodeCreator<Node>,PositionTrait<GameObjectModel>>' being compiled
+          with
+          [
+              Node=BIHWrap<GameObjectModel,BoundsTrait<GameObjectModel>>
+          ]
+C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\RegularGrid.h(87,84): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion (compiling source file C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\DynamicTree.cpp)
+  collision.vcxproj -> C:\Users\consu\OneDrive\Escritorio\Void WoW\source\src\server\collision\Debug\collision.lib
